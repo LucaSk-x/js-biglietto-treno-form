@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">   
+    <link rel="stylesheet" href="css/style.css">
+    <title>Biglietto treno</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row flex-column">
+            <div class="col my-5">
+                <h2 class="text-white text-uppercase text-center">calcola il prezzo del tuo biglietto</h2>
+                <div class="calcola-biglietto py-4">
+                    <div class="enter-data  d-flex justify-content-between p-4">
+                        <div class="dati-user d-flex flex-column">
+                            <p class="p-4">Nome e Cognome</p>
+                            <input type="text" placeholder="Nome e Cognome" name="userName">
+                        </div>
+                        <div class="range-trip d-flex flex-column">
+                            <p class="p-4">Km da percorrere</p>
+                            <input type="number" placeholder="Km" name="kmTrip">
+                        </div>
+                        <div class="age-user d-flex flex-column">
+                            <p class="p-4">Fascia d'età</p>
+                            <select name="age" id="" >
+                                <option value="Minorenne">Minorenne</option>
+                                <option value="Maggiorenne">Maggiorenne</option>
+                                <option value="Over">Over 65 anni</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bottoni d-flex justify-content-center">
+                        <div class="button">
+                            <button id="submit">Genera</button>
+                        </div>
+                        <div class="button">
+                            <button>Annulla</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h2 class="text-white text-uppercase text-center">Il tuo biglietto</h2>
+                <div class="ticket p-3">
+                    <h4 class="text-uppercase">dettagli biglietto</h4>
+                    <div class="info-ticket d-flex justify-content-between ">
+                        <div class="name">
+                            <h6 class="text-uppercase">Nome passeggero</h6>
+                            <div id="userName"></div>
+                        </div>
+                        <div class="offerta">
+                            <h6>Offerta</h6>
+                            <div id="discount"></div>
+                        </div>
+                        <div class="carrozza">
+                            <h6>Carrozza</h6>
+                            <div id="carriage"></div>
+                        </div>
+                        <div class="codice">
+                            <h6>Codice CP</h6>
+                            <div id="codeCp"></div>
+                        </div>
+                        <div class="price">
+                            <h6>Costo Biglietto</h6>
+                            <div id="priceTicket"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    background-color: #b91450;
+}
+
+.calcola-biglietto {
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.calcola-biglietto p {
+    color: #b91450;
+}
+
+.calcola-biglietto input, select {
+    border-color: #b91450;
+    border-radius: 4px;
+    color: #b91450;
+}
+
+.button button {
+    border-color: #b91450;
+    border-radius: 4px;
+    color: #b91450;
+}
+
+.ticket {
+    background-color: white;
+}
+
+.info-ticket {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.info-ticket .name {
+    background-color: lightgray;
+}
