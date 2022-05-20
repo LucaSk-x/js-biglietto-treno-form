@@ -12,7 +12,7 @@ body {
     color: #b91450;
 }
 
-.calcola-biglietto input, select {
+.calcola-biglietto input {
     border-color: #b91450;
     border-radius: 4px;
     color: #b91450;

@@ -21,20 +21,16 @@
                         </div>
                         <div class="range-trip d-flex flex-column">
                             <p class="p-4">Km da percorrere</p>
-                            <input type="number" placeholder="Km" name="kmTrip">
+                            <input type="number" placeholder="Km" name="userKm">
                         </div>
                         <div class="age-user d-flex flex-column">
                             <p class="p-4">Fascia d'età</p>
-                            <select name="age" id="" >
-                                <option value="Minorenne">Minorenne</option>
-                                <option value="Maggiorenne">Maggiorenne</option>
-                                <option value="Over">Over 65 anni</option>
-                            </select>
+                            <input type="age" placeholder="età" name="userAge">
                         </div>
                     </div>
                     <div class="bottoni d-flex justify-content-center">
                         <div class="button">
-                            <button id="submit">Genera</button>
+                            <button id="generaBtn">Genera</button>
                         </div>
                         <div class="button">
                             <button>Annulla</button>
@@ -53,15 +49,15 @@
                         </div>
                         <div class="offerta">
                             <h6>Offerta</h6>
-                            <div id="discount"></div>
+                            <div id="discount">Biglietto Standard</div>
                         </div>
                         <div class="carrozza">
                             <h6>Carrozza</h6>
-                            <div id="carriage"></div>
+                            <div id="carriage">5</div>
                         </div>
                         <div class="codice">
                             <h6>Codice CP</h6>
-                            <div id="codeCp"></div>
+                            <div id="codeCp">280500</div>
                         </div>
                         <div class="price">
                             <h6>Costo Biglietto</h6>
@@ -72,5 +68,6 @@
             </div>
         </div>
     </div>
+    <script src="java/app.js"></script>
 </body>
 </html>
